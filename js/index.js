@@ -56,6 +56,7 @@ links.map((link) => {
     navBar.classList.remove("show");
   });
 });
+
 //Animation
 gsap.from(".logo", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
 gsap.from(".hamburger", { opacity: 0, duration: 1, delay: 1, x: 20 });
